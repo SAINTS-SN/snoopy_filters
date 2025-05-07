@@ -1,0 +1,11 @@
+https://telescope.livjm.ac.uk/TelInst/Inst/RATCam/#filters
+describes the filters as SDSS-primed like for ugriz and Besell like for BV
+No Liverpool/RATCam specific total throughput is provided.
+
+Supernova 2005bl has photometry from RATCam that was S-corrected to Bessell-BVRI
+The U data was not S-corrected and is the SDSS-like u' filter on RATCam.
+
+The website provides the following disclaimer:
+Note that the transmission curves are measured at 20 degrees Centigrade and in a collimated beam,
+and therefore will need to be corrected for the actual temperature at the time of observation
+and the f/10 beam of the telescope.

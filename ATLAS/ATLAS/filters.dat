@@ -1,2 +1,4 @@
-atlas_c atlas_c.txt  AB  ATLAS c (g+r)  - modified mag sys from Vega to AB; previously in file filter1
-atlas_o atlas_o.txt  AB  ATLAS o (r+i)  - modified mag sys from Vega to AB; previously in file filter2
+atlas_c ATgr_total.dat AB ATLAS c (g+r) from SVO
+atlas_o ATri_total.dat AB ATLAS o (r+i) from SVO
+atlas_c_snpy atlas_c.txt  AB  ATLAS c (g+r)  - modified mag sys from Vega to AB; previously in file filter1
+atlas_o_snpy atlas_o.txt  AB  ATLAS o (r+i)  - modified mag sys from Vega to AB; previously in file filter2

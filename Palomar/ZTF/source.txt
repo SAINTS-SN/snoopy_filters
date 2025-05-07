@@ -1,0 +1,13 @@
+Transmission functions from https://github.com/ZwickyTransientFacility/ztf_information/tree/master
+which has vendor_measured on-axis filter transmission functions (ZTF_g_band_test_data_pos1_0AOI.csv, ZTF_g_band_test_data_pos1_0AOI.csv, ztf_i_band.csv), but these have multiple rows with identical wavelengths.
+Additionally, there are QE curves (in QE) for the northernmost and southernmost eight CCDs (single-layer coating in e2v_ztf_singlelayer.csv) and for the inner eight (multi-layer coating, e2v_ztf_multi2.csv).
+
+SVO somehow has functions (Palomar_ZTF.{g,r,i}.dat) that seem to sample unique wavelengths at different values.
+These functions use the multi-layer coating.
+
+SNooPy includes code for adding atmospheric extinction (make_filts.py) based on a CTIO model atmosphere (atm_ext_ctio.dat, atm_ext_lines.dat) to produce ztf_{g,r,i}_atm.dat.
+It's unclear what airmass is used.
+
+SNCosmo uses transmission curves from Uli Feindt (20180607) that do not include atmospheric models.
+These seem to use an average of the single and multi-layer coating QE curves.
+The feindt_atm files use those transmission curves and a skycalc atmosphere with parameters {airmass: 1.2, observatory: paranal}.
